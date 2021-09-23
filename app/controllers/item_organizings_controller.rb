@@ -64,6 +64,6 @@ class ItemOrganizingsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def item_organizing_params
-      params.require(:item_organizing).permit(:item, :color, :season)
+      params.require(:item_organizing).permit(:item, :image, :color, :season)
     end
 end
