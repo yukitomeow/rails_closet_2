@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Item:</strong>
+  <%= @item_organizing.item %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @item_organizing.color %>
+</p>
+
+<p>
+  <strong>Season:</strong>
+  <%= @item_organizing.season %>
+</p>
+
+<%= link_to 'Edit', edit_item_organizing_path(@item_organizing) %> |
+<%= link_to 'Back', item_organizings_path %>

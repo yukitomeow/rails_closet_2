@@ -1,0 +1,2 @@
+class ItemOrganizing < ApplicationRecord
+end
