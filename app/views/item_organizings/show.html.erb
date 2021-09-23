@@ -4,6 +4,10 @@
   <strong>Item:</strong>
   <%= @item_organizing.item %>
 </p>
+<div style="width:400px; height:auto">
+ <%=  link_to image_tag(@item_organizing.image, style:'width:100%'), item_organizings_path %>
+ </div>
+
 
 <p>
   <strong>Color:</strong>
